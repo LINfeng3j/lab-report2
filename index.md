@@ -1,3 +1,35 @@
+# Part 1
 # StringServer.java
 
 ![Image](@D9PNSPN0BWXLV0V[R6D6SR.png)
+I changed the original NumberServer again, so the framework is almost identical.
+
+![Image](2.11.png)
+__1. The first test, 'hello' calls the StringHandler method.__
+__2. The relevant argument of Handler is HttpExchange, and then the request URL will grab the string in the query after the path and store it in newMessage.__
+__3. Increase the corresponding Messagenumber. The message field now has ‘1. Hello \n’.__
+
+![Image](2.12.png)
+__1. The Second test, '123' also calls the StringHandler Method.__
+__2. It is also the same as above because the code reads these numbers as strings, not integers. So the code will also check for the change in the URL as an argument, read the path and query, and store it in newMessage.__
+__3. It also changes the Messagenumber increase one. Note I tried on my own but didn't screenshot it once; that makes this time the third time, so Messagenumber is now 3, and the message field now has'1. Hello \n 2. number \n 3. 123\n'__
+
+
+# Part 2
+__1.__
+![Image](2.24.png)
+![Image](2.25.png)
+
+__2.__
+![Image](2.22.png)
+__I note that the remote computer from ieng6 seems to have hidden my .ssh folder. I can't use ls in the main folder to see it, but I can use ls or cd .ssh path to call it out.__
+![Image](2.23.png)
+![Image](2.21.png)
+
+__3.__
+![Image](2.26.png)
+
+# Part 3
+
+__I have learned Java and its related code programming elsewhere before. However, I have never used terminal and remote computer access, so I think I have learned some relevant commands in the current course on using these helpful tools to create a Web Server.__
+
