@@ -2,7 +2,7 @@
 # StringServer.java
 
 ![Image](@D9PNSPN0BWXLV0V[R6D6SR.png)
-I changed the original NumberServer again, so the framework is almost identical.
+__I changed the original NumberServer again, so the framework is almost identical.__
 
 ![Image](2.11.png)
 __1. The first test, 'hello' calls the StringHandler method.__
