@@ -1,6 +1,5 @@
 # Part 1
-# StringServer.java
-
+StringServer.java
 ![Image](@D9PNSPN0BWXLV0V[R6D6SR.png)<br>
  __I get this by changing some code from NumberServer, so the framework is almost the same.__
 
