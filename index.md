@@ -5,9 +5,9 @@
 __I get this by changing some code from NumberServer, so the framework is almost the same.__
 
 ![Image](2.11.png)
-__1. The first test, 'hello' calls the StringHandler method.__
-__2. The relevant argument of Handler is HttpExchange, and then the request URL will grab the string in the query after the path and store it in newMessage.__
-__3. Increase the corresponding Messagenumber. The message field now has ‘1. Hello \n’.__
+__1. The first test, 'hello' calls the StringHandler method.__ \n
+__2. The relevant argument of Handler is HttpExchange, and then the request URL will grab the string in the query after the path and store it in newMessage.__ \n
+__3. Increase the corresponding Messagenumber. The message field now has ‘1. Hello \n’.__ \n
 
 ![Image](2.12.png)
 __1. The Second test, '123' also calls the StringHandler Method.__
