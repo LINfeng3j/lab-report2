@@ -11,13 +11,10 @@ __3. Increase the corresponding Messagenumber. The message field now has ‘1. H
 __1. The Second test, '123' also calls the StringHandler Method.__ <br>
 __2. It is also the same as above because the code reads these numbers as strings, not integers. So the code will also check for the change in the URL as an argument, read the path and query, and store it in newMessage.__ <br>
 __3. It also changes the Messagenumber increase one. Note I tried on my own but didn't screenshot it once; that makes this time the third time, so Messagenumber is now 3, and the message field now has'1. Hello \n 2. number \n 3. 123\n'__ <br>
-
-
 # Part 2
 __1.__
 ![Image](2.24.png) <br>
 ![Image](2.25.png) <br>
-
 __2.__
 ![Image](2.22.png) <br>
 __I note that the remote computer from ieng6 seems to have hidden my .ssh folder. I can't use ls in the main folder to see it, but I can use ls or cd .ssh path to call it out.__ <br>
